@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gr0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:columnCount="2"
+            android:rowCount="1"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <GridLayout
+                android:id="@+id/grMatematicas"
+                android:layout_width="175dp"
+                android:layout_height="255dp"
+                android:columnCount="2">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_mate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/materia1"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota1M"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nota1M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n1M"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota2M"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota2M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n2M"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota3M"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota3M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n3M"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_finalM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definitiva: "
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_defM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="60dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/matematicas" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/grIngles"
+                android:layout_width="175dp"
+                android:layout_height="255dp"
+
+                android:columnCount="2">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_ing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/materia2"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota1I"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nota1M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n1I"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota2I"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota2M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n2I"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota3I"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota3M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n3I"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_finalI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DefinitivaM"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_defI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="60dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/ingles" />
+
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/grGeometria"
+                android:layout_width="175dp"
+                android:layout_height="255dp"
+                android:columnCount="2">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_geo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/materia4"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota1G"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nota1M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n1G"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota2G"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota2M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n2G"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota3G"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota3M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n3G"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_finalG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DefinitivaM"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_defG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="60dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/geo" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/grPMI"
+                android:layout_width="175dp"
+                android:layout_height="255dp"
+                android:columnCount="2">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_pmi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/materia3"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota1P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nota1M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n1P"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota2P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota2M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n2P"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_nota3P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nota3M"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/et_n3P"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_finalP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definitiva: "
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/tv_defP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_light" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="60dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/gerencia" />
+
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calcular"
+                android:text="@string/botonDefi"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="limpiar"
+                android:text="@string/botonLim"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="acercade"
+                android:text="@string/botonAcercaDe"
+                android:textSize="10sp" />
+
+        </GridLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+

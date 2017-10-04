@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculation of notes</string>
+    <string name="materia1">Mathematics</string>
+    <string name="nota1M">Note 1:</string>
+    <string name="Nota2M">Note 2:</string>
+    <string name="Nota3M">Note 3:</string>
+    <string name="DefinitivaM">Final :</string>
+    <string name="materia2">English</string>
+    <string name="materia3">PMI</string>
+    <string name="materia4">Geometry</string>
+    <string name="botonDefi">Definitive semester</string>
+    <string name="botonguar">Save</string>
+    <string name="bienveni">Welcome</string>
+    <string name="botonLim">Clean</string>
+    <string name="botonAcercaDe">About</string>
+    <string name="boton">Exit</string>
+    <string name="mensajellenarcampos">Empty fields are not allowed</string>
+    <string name="mensajeDefinitiva">Final</string>
+    <string name="mensajenota">The final grade of the semester is:</string>
+    <string name="cancel">Cancel</string>
+    <string name="definitivacias">They exist definitive without calculating</string>
+</resources>

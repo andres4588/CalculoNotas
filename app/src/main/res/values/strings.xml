@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Nota3M">Nota3:</string>
+    <string name="app_name">Calculo de notas</string>
+    <string name="bienveni">Bienvenidos</string>
+    <string name="boton">Salir</string>
+    <string name="botonAcercaDe">Acerca de</string>
+    <string name="botonDefi">Definitiva semestre</string>
+    <string name="botonLim">Limpiar</string>
+    <string name="botonguar">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="definitivacias">Existe definitivas vacias</string>
+    <string name="materia1">Matematicas</string>
+    <string name="materia2">Ingles</string>
+    <string name="materia3">PMI</string>
+    <string name="materia4">Geometria</string>
+    <string name="mensajeDefinitiva">Definitiva</string>
+    <string name="mensajellenarcampos">Existen campos vacios</string>
+    <string name="mensajenota">La nota final del semestre es:</string>
+    <string name="nota1M">Nota1</string>
+</resources>
